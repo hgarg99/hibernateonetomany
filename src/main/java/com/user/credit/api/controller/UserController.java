@@ -39,7 +39,7 @@ public class UserController {
 			return optUser.get();
 		} else {
 			throw new NotFoundException(Constants.USER_NOT_FOUND + id);
-		}
+		
 	}
 
 	/**
