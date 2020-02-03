@@ -1,0 +1,3 @@
+# Created on 2020-02-03T16:27:50.827
+Picked up JAVA_TOOL_OPTIONS: -Dmaven.ext.class.path="C:\Program Files (x86)\Jenkins\workspace\Pipe_Compile@tmp\withMaven66ff313e\pipeline-maven-spy.jar" -Dorg.jenkinsci.plugins.pipeline.maven.reportsFolder="C:\Program Files (x86)\Jenkins\workspace\Pipe_Compile@tmp\withMaven66ff313e" 
+
