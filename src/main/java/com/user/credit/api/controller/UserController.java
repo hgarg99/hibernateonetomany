@@ -35,10 +35,11 @@ public class UserController {
 	@GetMapping("/user/{id}")
 	public UserEntity getUserByID(@PathVariable Long id) {
 		Optional<UserEntity> optUser = userRepository.findById(id);
-		if (optUser.isPresent()) 
+		if (optUser.isPresent())  {
 			return optUser.get();
 		} else {
 			throw new NotFoundException(Constants.USER_NOT_FOUND + id);
+		}
 		
 	}
 
